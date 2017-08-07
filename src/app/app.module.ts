@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { InsideComponent } from './inside/inside.component';
 import { TirarOsComponent } from './tirar-os/tirar-os.component';
+import { MenusidebarComponent } from './menusidebar/menusidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     InsideComponent,
-    TirarOsComponent
+    TirarOsComponent,
+    MenusidebarComponent
   ],
   imports: [
     BrowserModule,
