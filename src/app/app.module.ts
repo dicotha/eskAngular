@@ -19,6 +19,8 @@ import { AprovaremmassaComponent } from './preimpressao/aprovaremmassa/aprovarem
 import { CriarComponent } from './usuarios/criar/criar.component';
 import { ModificarComponent } from './usuarios/modificar/modificar.component';
 
+import { TestpresseroService } from './services/testpressero.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -92,7 +94,7 @@ import { ModificarComponent } from './usuarios/modificar/modificar.component';
       }
     ])
   ],
-  providers: [],
+  providers: [TestpresseroService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
